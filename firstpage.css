@@ -208,7 +208,7 @@
       -webkit-filter: none;
     }
     #pic2:hover{
-      background: url('firstpage_images\2stepside.jpg') no-repeat;
+      background: url("firstpage_images\2stepside.jpg") no-repeat;
       width: [IMAGE_WIDTH_IN_PIXELS]px;
       height: [IMAGE_HEIGHT_IN_PIXELS]px;
     }
@@ -345,9 +345,11 @@
   color: black;
 }
 
-#searched{
+#searches {
     background-image: url('searchicon.png'); /* Add a search icon to input */
-    background-position: 100px 12px; /* Position the search icon */
+    max-width: 15px;
+    max-height: 16px;
+    background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
 
 }
